@@ -1,6 +1,8 @@
-current_number = int(input("Enter starting number: "))
+#Challenge 1
+print(f"=== Challenge 1: Collatz Conjecture ===")
+current_number = int(input("Enter starting number:"))
 step_count = 0
-print("Sequence", end=" ")
+print(" Sequence:", end=" ")
 while (current_number != 1):
     print( current_number, end=" ")
     if current_number % 2 == 0:
@@ -10,3 +12,4 @@ while (current_number != 1):
     step_count += 1
 print("1")
 print(f"Steps: {step_count}")
+print()
